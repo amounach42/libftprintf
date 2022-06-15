@@ -105,6 +105,7 @@ int		main(void)
 	int	fd;
 
 	fd = open("text.txt", O_RDONLY);
+	line = NULL;
 	while (line)
 	{
 		line = get_next_line(fd);
